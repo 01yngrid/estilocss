@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ /* background-color: blueviolet;    */
+ /* background-image: url(https://cdn.pixabay.com/photo/2024/08/29/10/01/nature-9006428_640.jpg); */
+ background-color: #4faf57;
+ background-repeat: no-repeat;
+ background-size: cover;
+background-position: center;
+background-attachment: fixed;
+animation: mudarcores 5s infinite;
+}
+
+img{ 
+    height: 500px;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+main{
+    /* border:red 3px solid;  */
+    width: 70%;
+    margin:auto;
+    padding: 25px;
+    background-color: rgba(170, 193, 201, 0.699);
+    border-radius: 15px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #060607;
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+    font-stretch: extra-expanded;
+    line-height: 100px;
+    /* letter-spacing: 2px; */
+    word-spacing: 10px;
+    text-align: justify;
+    text-decoration: underline dashed #151416 ;
+    text-transform:lowercase;
+    text-indent: 100px;
+    /* text-shadow: 10px 10px 10px #4faf57 ; */
+}
+
+h1{ 
+  font-family: serif;
+  text-align: center;
+  
+
+
+
+}
+@keyframes mudarcores { 
+ 0% {background-color: #51b159;
+}
+25% {background-color: #4239bd;
+} 
+50% {background-color: #c91192;
+}
+75% {background-color: #0d125e;
+}
+100% {background-color: #66b46d;}
+}
